@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - DukaanOS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1E40AF;
+            --primary-light: #EFF6FF;
+            --text-main: #0F172A;
+            --text-muted: #475569;
+            --border: #E2E8F0;
+            --bg: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --success: #10B981;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+            padding: 48px 40px;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 28px 20px;
+            }
+            body {
+                padding: 16px 10px;
+            }
+        }
+
+        .header {
+            border-bottom: 2px solid var(--primary-light);
+            padding-bottom: 28px;
+            margin-bottom: 36px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--primary-light);
+            color: var(--primary);
+            font-size: 13px;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 999px;
+            margin-bottom: 14px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .updated-date {
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        h2 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-top: 36px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        p, li {
+            color: var(--text-muted);
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: var(--primary-light);
+            border-left: 4px solid var(--primary);
+            border-radius: 0 12px 12px 0;
+            padding: 16px 20px;
+            margin: 20px 0;
+        }
+
+        .highlight-box p {
+            color: #1E3A8A;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+
+        .contact-card {
+            background: #F1F5F9;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 24px;
+        }
+
+        .contact-card p {
+            margin-bottom: 6px;
+        }
+
+        .contact-card a {
+            color: var(--primary);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .contact-card a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 13px;
+            color: #94A3B8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="badge">Official Legal Document</span>
+            <h1>Privacy Policy for DukaanOS</h1>
+            <p class="updated-date">Effective Date: October 11, 2026 • Version: 1.0.0</p>
+        </div>
+
+        <p>Welcome to <strong>DukaanOS</strong> ("we," "our," or "us"). We build modern, reliable, and secure operating systems for small and medium retail merchants, wholesalers, and shopkeepers across India. We are committed to protecting the privacy, accuracy, and security of your business and customer information.</p>
+
+        <p>This Privacy Policy explains how our mobile application DukaanOS collects, uses, protects, and discloses information when you use our services.</p>
+
+        <h2>1. Information We Collect</h2>
+        <p>We only collect information strictly required to deliver fast and reliable POS billing, digital ledger (khata), and inventory management services:</p>
+        <ul>
+            <li><strong>Merchant Account Information:</strong> Your store/business name, shopkeeper name, mobile phone number, email address, and optional GSTIN number.</li>
+            <li><strong>Business & Transactional Records:</strong> Products added to inventory (names, selling prices, purchase prices, stock quantities), customer directory details (customer names, phone numbers), sales invoices, bill receipts, and credit/debit ledger entries (उधार और जमा हिसाब).</li>
+            <li><strong>Authentication Information:</strong> Secure tokens provided via Google Sign-In or Firebase Authentication. We never store or access your personal passwords.</li>
+        </ul>
+
+        <h2>2. Device Permissions & Specific Usage</h2>
+        <p>To provide high-efficiency retail functionality, DukaanOS requests the following Android permissions:</p>
+
+        <div class="highlight-box">
+            <p><strong>📷 Camera Permission (android.permission.CAMERA):</strong><br>
+            The camera is used <strong>exclusively</strong> for scanning product barcodes and QR codes to instantly add items to the POS billing cart and look up inventory. DukaanOS does NOT record videos, snap photos, capture merchant faces, or store any camera imagery.</p>
+        </div>
+
+        <ul>
+            <li><strong>Internet & Network State (android.permission.INTERNET, ACCESS_NETWORK_STATE):</strong> Required to verify connectivity and sync encrypted business records with our cloud database (Google Firebase) in real-time.</li>
+            <li><strong>Bluetooth / Nearby Devices:</strong> If enabled, used solely to connect to standard Bluetooth ESC/POS thermal receipt printers for printing paper bills.</li>
+        </ul>
+
+        <h2>3. Data Storage & Security Practices</h2>
+        <p>Your business continuity and confidentiality are our highest priorities:</p>
+        <ul>
+            <li><strong>Encryption in Transit:</strong> All communications between the DukaanOS mobile app and our servers are encrypted using modern Transport Layer Security (TLS/HTTPS).</li>
+            <li><strong>Encryption at Rest:</strong> Cloud data is stored on Google Cloud / Firebase Firestore servers with industry-standard AES-256 encryption.</li>
+            <li><strong>Zero Commercial Sharing:</strong> We do NOT sell, rent, monetize, or trade your shop records, sales data, customer phone numbers, or khata balances with third-party advertisers or data brokers.</li>
+        </ul>
+
+        <h2>4. Third-Party Services</h2>
+        <p>DukaanOS integrates with industry-standard Google infrastructure to provide reliable services:</p>
+        <ul>
+            <li><strong>Google Firebase Authentication:</strong> For secure, one-click sign-in without passwords.</li>
+            <li><strong>Google Cloud Firestore:</strong> For automated real-time database synchronization and backups.</li>
+            <li><strong>WhatsApp Integration:</strong> The app utilizes standard deep-links to allow you to send bill receipts and ledger summaries directly via your own installed WhatsApp application. DukaanOS does not access your personal WhatsApp chats.</li>
+        </ul>
+
+        <h2>5. Data Retention & User Rights (Account & Data Deletion)</h2>
+        <p>You maintain full ownership and control over your store's information:</p>
+        <ul>
+            <li>You can edit or delete individual transactions, bills, customers, and inventory items directly within the app at any time.</li>
+            <li><strong>Account & Data Deletion:</strong> If you wish to permanently delete your account and erase all associated business data from our servers, you may send a written request to <a href="mailto:support@dukaanos.com">support@dukaanos.com</a> or use the in-app support option. All associated records will be purged within 30 days.</li>
+        </ul>
+
+        <h2>6. Children's Privacy</h2>
+        <p>DukaanOS is designed solely for business management and retail commercial operations. Our app is not directed toward children under the age of 13, and we do not knowingly collect personal information from minors.</p>
+
+        <h2>7. Updates to This Policy</h2>
+        <p>We may periodically update this Privacy Policy to reflect app enhancements or statutory updates. Any changes will be published on this page with an updated effective date.</p>
+
+        <h2>8. Contact Us & Grievance Redressal</h2>
+        <p>If you have questions, feedback, or concerns regarding this Privacy Policy or your data security, please contact us:</p>
+
+        <div class="contact-card">
+            <p><strong>App:</strong> DukaanOS (BoostEngine)</p>
+            <p><strong>Developer:</strong> Rishabh Gehlot</p>
+            <p><strong>Email:</strong> <a href="mailto:support@dukaanos.com">support@dukaanos.com</a> / <a href="mailto:rishabhgehlot7@gmail.com">rishabhgehlot7@gmail.com</a></p>
+            <p><strong>Location:</strong> Jaipur, Rajasthan, India</p>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 DukaanOS. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
