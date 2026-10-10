@@ -91,4 +91,4 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 - **Entity / App:** DukaanOS (BoostEngine)
 - **Developer:** Rishabh Gehlot
 - **Email:** boostengine001@gmail.com / rishabh3x@gmail.com
-- **Address:** Jaipur, Rajasthan, India
+- **Address:** Jodhpur, Rajasthan, India
