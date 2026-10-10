@@ -68,7 +68,7 @@ We rely on trusted enterprise infrastructure:
 
 You retain full ownership and control over all data recorded in DukaanOS:
 - **In-App Editing & Deletion:** You can edit or delete individual transactions, invoices, customers, and inventory items directly within the app at any time.
-- **Complete Account & Data Erasure:** If you wish to permanently delete your account and erase all associated business records from our cloud database, please contact our support team at **support@dukaanos.com** or **rishabhgehlot7@gmail.com** with your registered mobile number/email. All associated cloud data will be permanently wiped within 30 days.
+- **Complete Account & Data Erasure:** If you wish to permanently delete your account and erase all associated business records from our cloud database, please contact our support team at **boostengine001@gmail.com** or **rishabh3x@gmail.com** with your registered mobile number/email. All associated cloud data will be permanently wiped within 30 days.
 
 ---
 
@@ -90,5 +90,5 @@ If you have any questions, concerns, or requests regarding this Privacy Policy o
 
 - **Entity / App:** DukaanOS (BoostEngine)
 - **Developer:** Rishabh Gehlot
-- **Email:** support@dukaanos.com / rishabhgehlot7@gmail.com
+- **Email:** boostengine001@gmail.com / rishabh3x@gmail.com
 - **Address:** Jaipur, Rajasthan, India
